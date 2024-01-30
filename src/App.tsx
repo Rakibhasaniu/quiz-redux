@@ -1,4 +1,7 @@
-import { Button } from "@material-tailwind/react"
+
+import { Toaster } from "react-hot-toast"
+import { NavbarDefault } from "./components/Navbar"
+import { TabsWithIcon } from "./components/Tabs"
 
 
 
@@ -6,10 +9,11 @@ function App() {
   
 
   return (
-    <>
-      <h1>ppp</h1>
-      <Button placeholder={''} color="blue" >Submit</Button>
-    </>
+    <div className="container mx-auto">
+      <NavbarDefault />
+      <TabsWithIcon />
+      <Toaster />
+    </div>
   )
 }
 

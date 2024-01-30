@@ -27,3 +27,5 @@ const quizSlice = createSlice({
         }
     }
 })
+export const {addQuiz} = quizSlice.actions;
+export default quizSlice.reducer;

@@ -1,4 +1,5 @@
 import {
+    Button,
     Card,
     Input,
     Typography,
@@ -137,7 +138,9 @@ import {
             </div>
           </div>
           
-         
+         <div className="flex justify-end">
+                <Button size="sm" placeholder={""}>Add Quiz</Button>
+         </div>
           
         </form>
       </Card>

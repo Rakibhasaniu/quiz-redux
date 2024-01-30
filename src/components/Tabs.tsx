@@ -12,7 +12,8 @@ import {
   
 } from "@heroicons/react/24/solid";
 import { QuizCard } from "./QuizCard";
-import { AddQuizForm } from "./AddQuizForm";
+
+import { DefaultStepper } from "./Stepper";
  
 export function TabsWithIcon() {
   const data = [
@@ -26,7 +27,7 @@ export function TabsWithIcon() {
       label: "Add Quiz",
       value: "add-quiz",
       icon: UserCircleIcon,
-      desc: <AddQuizForm></AddQuizForm>,
+      desc: <DefaultStepper></DefaultStepper>,
     },
     
   ];
